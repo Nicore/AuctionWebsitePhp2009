@@ -1,0 +1,8 @@
+
+/* CSS Document */
+
+#username {width:12em;}
+#masterpass {width:12em; }
+form {width:31em; background-color:#B7FFAA; }
+label { width:15em; float:left; clear:left; }
+legend {background-color:#0F0; font-size:110%;}

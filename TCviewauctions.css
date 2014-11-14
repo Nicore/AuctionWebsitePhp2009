@@ -1,0 +1,24 @@
+/* CSS Document */
+
+#radbtn {width:1em; height:53px;}
+#namehead {width:12em;}
+#imghead {width:50px;}
+#imgbox {height:50px; width:50px;}
+#expdate {width:8em;}
+#usrnme {width:8em;}
+#numbox {width:4em;}
+form {width:auto; background-color:#B7FFAA; }
+label { width:10em; float:left; clear:left; }
+legend {background-color:#0F0; font-size:110%;}
+#auctable {border-style:none; padding:3px;}
+#popup {
+	position:absolute;
+	top:50px;
+	left:110px;
+	display:none;
+	background-color:#B7FFAA;
+	border:solid 1px #0F0;
+	width:12em;
+	height:6em;
+	
+}

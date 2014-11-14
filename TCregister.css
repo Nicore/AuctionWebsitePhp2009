@@ -1,0 +1,10 @@
+/* CSS Document */
+
+label { width:13em;
+		float:left;
+		clear:left;
+}
+form {width:28em; background-color:#B7FFAA; }
+
+input { width: 12em;}
+legend {background-color:#0F0; font-size:110%;}

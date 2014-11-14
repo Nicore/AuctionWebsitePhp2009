@@ -1,0 +1,15 @@
+/* CSS Document */
+
+label { width:13em;
+		float:left;
+		clear:left;
+}
+#radbtn {width:3em;}
+#itemdesc {height:6em;}
+#initprice {text-align:right;}
+#buyout {text-align:right;}
+#expiretime {text-align:right;}
+form {width:28em; background-color:#B7FFAA; }
+
+input { width: 13em;}
+legend {background-color:#0F0; font-size:110%;}

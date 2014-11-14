@@ -1,0 +1,49 @@
+describe TCusers;
++-----------+----------+------+-----+---------+-------+
+| Field     | Type     | Null | Key | Default | Extra |
++-----------+----------+------+-----+---------+-------+
+| username  | char(32) | NO   | PRI | NULL    |       | 
+| passhash  | char(40) | NO   |     | NULL    |       | 
+| email     | char(32) | NO   |     | NULL    |       | 
+| verified  | int(1)   | YES  |     | NULL    |       | 
+| admin     | int(1)   | YES  |     | NULL    |       | 
+| blocked   | int(1)   | YES  |     | NULL    |       | 
+| verstring | char(8)  | YES  |     | NULL    |       | 
+| firstname | char(32) | YES  |     | NULL    |       | 
+| lastname  | char(32) | YES  |     | NULL    |       | 
+| phone     | char(32) | YES  |     | NULL    |       | 
+| address1  | char(32) | YES  |     | NULL    |       | 
+| address2  | char(32) | YES  |     | NULL    |       | 
+| city      | char(32) | YES  |     | NULL    |       | 
+| postcode  | char(4)  | YES  |     | NULL    |       | 
++-----------+----------+------+-----+---------+-------+
+14 rows in set (0.00 sec)
+
+
+describe TCtrades;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| tradeid  | int(8)   | NO   | PRI | NULL    |       | 
+| sellerid | char(32) | NO   |     | NULL    |       | 
+| buyerid  | char(32) | YES  |     | NULL    |       | 
++----------+----------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+
+
+describe TCauctions;
++------------+--------------+------+-----+---------+----------------+
+| Field      | Type         | Null | Key | Default | Extra          |
++------------+--------------+------+-----+---------+----------------+
+| auctionid  | int(8)       | NO   | PRI | NULL    | auto_increment | 
+| itemname   | char(32)     | NO   |     | NULL    |                | 
+| imgurl     | char(32)     | YES  |     | NULL    |                | 
+| expiretime | datetime     | NO   |     | NULL    |                | 
+| initprice  | decimal(8,2) | NO   |     | NULL    |                | 
+| currentbid | decimal(8,2) | YES  |     | NULL    |                | 
+| itemdesc   | char(255)    | YES  |     | NULL    |                | 
+| buyout     | decimal(8,2) | YES  |     | NULL    |                | 
+| expired    | int(1)       | YES  |     | NULL    |                | 
++------------+--------------+------+-----+---------+----------------+
+9 rows in set (0.00 sec)

@@ -1,0 +1,9 @@
+/* CSS Document */
+
+td { vertical-align:bottom; text-align:left; }
+body {font-family:sans-serif; }
+#navbar {height:100px; background-color:#00FF00; }
+#navimage {width:210px; }
+.navlinkbox {width:100px; }
+.spacer {width:auto; }
+.namebox {width:200px; }
